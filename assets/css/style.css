@@ -81,3 +81,10 @@ h1 {
     letter-spacing: 0.1rem;
     font-size: 3.2rem;
 }
+
+#about-us p {
+    font-size: 1.6rem;
+    margin-left: 3.0rem;
+    margin-right: 3.0rem;
+    text-align: left;
+}
