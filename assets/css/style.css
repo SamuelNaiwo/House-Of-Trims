@@ -9,6 +9,8 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+
+
 #neubar {
     background: #000000;
 }
@@ -25,6 +27,7 @@ body {
 
 #nav-link-item {
     color: #ffffff;
+    font-size: 1.6rem;
 }
 
 #nav-link-item:hover {
@@ -34,6 +37,10 @@ body {
 .nav-item .active {
     border-radius: 6px;
     background: #ff834f;
+}
+
+.nav-item .active:hover {
+    color: #000000;
 }
 
 #neubar .nav-item {
@@ -76,15 +83,48 @@ figure {
     left: 5rem;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.1rem;
-    font-size: 3.2rem;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    padding-top: 3.0rem;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.0rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2.0rem;
+    margin-left: 3.0rem;
+    text-decoration: underline solid 3px #000000;
 }
 
 #about-us p {
-    font-size: 1.6rem;
-    margin-left: 3.0rem;
-    margin-right: 3.0rem;
-    text-align: left;
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
+    
+}
+
+.barber-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.barber-img {
+    padding-top: 2.0rem;
+}
+
+.barber-info p {
+    padding-top: 0.3rem;
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
 }
