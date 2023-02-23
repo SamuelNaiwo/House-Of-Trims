@@ -132,3 +132,11 @@ h4 {
     padding-left: 3.0rem;
     padding-right: 3.0rem;
 }
+
+.treatments p {
+    margin-bottom: 2.5rem;
+}
+
+.treatments .info {
+    margin-bottom: 0.4rem;
+}
