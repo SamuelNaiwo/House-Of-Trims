@@ -36,10 +36,6 @@ body {
     background: #ff834f;
 }
 
-#neubar .dropdown-menu a:hover {
-    color: #454545
-}
-
 #neubar .nav-item {
     margin: auto 4px;
 }
@@ -51,4 +47,37 @@ body {
 
 #neubar .dropdown-menu {
     background: #000000
+}
+
+#home-img {
+    z-index: 0;
+    position: relative;
+}
+
+figure {
+    position: relative;
+}
+
+.slogan-1, .slogan-2 {
+    position: absolute;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.slogan-1 {
+    bottom: 5.0rem;
+    left: 1.5rem;
+}
+
+.slogan-2 {
+    bottom: 2.7rem;
+    left: 5rem;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 3.2rem;
 }
