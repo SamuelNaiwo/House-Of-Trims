@@ -140,3 +140,35 @@ h4 {
 .treatments .info {
     margin-bottom: 0.4rem;
 }
+
+.icon-review {
+    font-size: 2.5em;
+}
+
+.text-review {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.speech-bubble {
+    border-radius: 15px;
+    border-style: none;
+    background: #DCDCDC;
+    text-align: center;
+    position: relative;
+    margin-left: 2.7rem;
+    margin-right: 2em;
+  }
+
+.speech-bubble:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #DCDCDC;
+    border-top: 15px solid #DCDCDC;
+    border-bottom: 15px solid transparent;
+    left: -16px;
+    top: 0px;
+}
