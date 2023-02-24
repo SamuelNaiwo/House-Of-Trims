@@ -174,7 +174,7 @@ h4 {
     background-color: #ff834f;
 }
 
-h6 {
+#quote-text {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.1rem;
     font-size: 2em;
@@ -184,4 +184,36 @@ h6 {
     padding-right: 3rem;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    margin-bottom: 0;
+}
+
+#footer-title {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.footer-info {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-info-text {
+    line-height: 2.5rem;
+}
+
+.contact-icon {
+    color: #ff834f;
+}
+
+.footer-icon {
+    font-size: 2.5em;
+    color: #ff834f;
+}
+
+.copyright {
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    word-spacing: .1em;
 }
