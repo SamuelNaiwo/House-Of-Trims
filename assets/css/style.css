@@ -9,8 +9,6 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-
-
 #neubar {
     background: #000000;
 }
@@ -28,10 +26,12 @@ body {
 #nav-link-item {
     color: #ffffff;
     font-size: 1.6rem;
+    margin-bottom: 6px;
 }
 
 #nav-link-item:hover {
-    color: #ff834f;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
 }
 
 .nav-item .active {
