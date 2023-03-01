@@ -178,7 +178,7 @@ h4 {
 
 #quote-text {
     font-family: 'Alfa Slab One', cursive;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     font-size: 2em;
     text-transform: uppercase;
     text-align: center;
@@ -212,4 +212,22 @@ h4 {
 .footer-icon {
     font-size: 2.5em;
     color: #ff834f;
+}
+
+/* Gallery */
+.gallery-container {
+    margin-top: 8.7rem;
+}
+
+.gallery-img-container {
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
+    height: 35rem;
+}
+
+.gallery-img {
+    border-radius: 4.0rem;
+    object-fit: cover;
+    height: 100%;
+    box-shadow: inset 10px 10px 50px #ff834f;
 }
