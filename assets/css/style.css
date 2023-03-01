@@ -11,6 +11,7 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+/* Navbar */
 #neubar {
     background: #000000;
 }
@@ -53,6 +54,7 @@ body {
     background: #000000
 }
 
+/* Home Image */
 .home-img-container {
     width: 100%;
     height: 55rem;
@@ -80,6 +82,7 @@ body {
     padding: 0;
 }
 
+/* General */
 h1, h2 {
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.1rem;
@@ -99,8 +102,6 @@ h3 {
     font-size: 2.0em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding-top: 2.0rem;
-    padding-left: 3.0rem;
     text-decoration: underline solid 3px #000000;
 }
 
@@ -109,27 +110,53 @@ h4 {
     font-size: 1.4em;
 }
 
+/* About Us */
 #about-us p {
     padding-left: 3.0rem;
     padding-right: 3.0rem;
     text-align: left;
 }
 
+/* Meet The Team */
 .barber-container {
-    padding-left: 0;
-    padding-right: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 3.0rem;
+}
+
+.barber-img-container {
+    height: 275px;
+    position: relative;
 }
 
 .barber-img {
-    padding-top: 2.0rem;
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
 }
 
-.barber-info p {
-    padding-top: 0.3rem;
-    padding-left: 3.0rem;
-    padding-right: 3.0rem;
+#barber-3 {
+    object-position: center -7rem;
 }
 
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.card-title {
+    background-color: #dcdcdc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.card-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Servies */
 .treatments p {
     margin-bottom: 2.5rem;
 }
