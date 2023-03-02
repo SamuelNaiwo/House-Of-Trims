@@ -259,3 +259,20 @@ h4 {
     height: 100%;
     box-shadow: 10px 10px 20px #000000;
 }
+
+/* Contact Us Form */
+.form-container {
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    background-color: #dcdcdc;
+    border-radius: 20px;
+}
+
+.input-field {
+    border-radius: 7px;
+}
+
+.input-field:hover {
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 1px rgba(255, 131, 79, 0.25);
+  }
