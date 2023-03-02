@@ -73,11 +73,11 @@ body {
 .slogans {
     font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.1em;
     width: 100%;
     height: 7.4rem;
     position: absolute;
-    top: 45rem;
+    top: 42rem;
     letter-spacing: 0.1rem;
     padding: 0;
 }
@@ -269,13 +269,17 @@ h4 {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.label-name {
+    font-size: 1.3em;
+}
+
 .input-field {
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .input-field:hover {
     transform: translateY(5px);
-    box-shadow: inset 0px 10px 20px 1px rgba(255, 131, 79, 0.25);
+    box-shadow: inset 0px 10px 20px 1px rgba(160, 160, 160, 0.25);
 }
 
 .submit-button {
@@ -284,5 +288,61 @@ h4 {
     font-size: 1.8em;
     text-transform: uppercase;
     font-family: 'Alfa Slab One', cursive;
-    padding: 2px 20px;
+    padding: 4px 30px;
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 768px) {
+
+    /* Home */
+    #home-img {
+        object-fit: cover;
+        height: 100%;
+        opacity: 0.3;
+        object-position: center -30rem;
+    }
+
+    .slogans {
+        font-size: 1.4em;
+        width: 100%;
+        height: 7.4rem;
+        position: absolute;
+        top: 40rem;
+    }
+
+    /*General */
+    h1, h2 {
+        font-size: 2.8em;
+        padding-top: 3.5rem;
+        padding-bottom: 2rem;
+    }
+
+    p {
+        font-size: 1.6em;
+    }
+
+    /* Barber */
+    .barber-img-container {
+        height: 299px;
+        position: relative;
+    }
+    
+    .barber-img {
+        height: 299px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* Contact Page */
+    .form-container {
+        margin: 0 100px 50px 100px;
+    }
+
+    .label-name {
+        font-size: 1.5em;
+    }
+
+    .submit-button {
+        padding: 6px 40px;
+    }
 }
