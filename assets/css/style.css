@@ -276,4 +276,13 @@ h4 {
 .input-field:hover {
     transform: translateY(5px);
     box-shadow: inset 0px 10px 20px 1px rgba(255, 131, 79, 0.25);
-  }
+}
+
+.submit-button {
+    border-radius: 7px;
+    background-color: #ff834f;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 2px 20px;
+}
