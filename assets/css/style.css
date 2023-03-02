@@ -2,7 +2,6 @@ html {
     width: 100%;
     height: 100%;
     font-size: 62.5%;
-    scroll-behavior: smooth;
     scroll-padding-top: 87px;
 }
 
@@ -242,6 +241,10 @@ h4 {
     color: #ff834f;
 }
 
+.small {
+    font-size: 1.7em;
+}
+
 /* Gallery */
 .gallery-container {
     margin-top: 8.7rem;
@@ -258,6 +261,7 @@ h4 {
     object-fit: cover;
     height: 100%;
     box-shadow: 10px 10px 20px #000000;
+    width: 100%;
 }
 
 /* Contact Us Form */
@@ -295,11 +299,15 @@ h4 {
 @media only screen and (min-width: 768px) {
 
     /* Home */
+    .home-img-container {
+        height: 80rem;
+        width: 100%;
+    }
+
     #home-img {
-        object-fit: cover;
+        object-fit: fill;
         height: 100%;
         opacity: 0.3;
-        object-position: center -30rem;
     }
 
     .slogans {
@@ -307,7 +315,7 @@ h4 {
         width: 100%;
         height: 7.4rem;
         position: absolute;
-        top: 40rem;
+        top: 60rem;
     }
 
     /*General */
@@ -382,8 +390,35 @@ h4 {
         object-fit: cover;
     }
 
+    /* Services */
+    .services-container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
     /* Testimonials */
     .speech-bubble {
         height: 375px;
+    }
+}
+
+/* X-Large Devices */
+@media only screen and (min-width: 1200px) {
+
+    /*General */
+    p {
+        font-size: 1.8em;
+    }
+    
+    /* Meet The Team */
+    .barber-img-container {
+        height: 500px;
+        position: relative;
+    }
+    
+    .barber-img {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
     }
 }
